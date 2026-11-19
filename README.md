@@ -104,6 +104,11 @@ icons). Players can keep walking while the phone is out.
 
 ## Configuration
 
+The values owners change most are on the **Phone** page in `/whip` → Settings, so most servers never open
+`config.lua`: service numbers (911, 311), ring time, call and message history, speakerphone range, new number
+prefixes, the default keys, the phone's size and clock, and its messages. Changes there are saved in the database
+and survive updates; `config.lua` holds the defaults.
+
 `config.lua` sets:
 
 | Settings | What they control |
